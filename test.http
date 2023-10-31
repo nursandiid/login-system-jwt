@@ -1,0 +1,36 @@
+### Register User
+POST http://localhost:3000/api/register
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Nursandi",
+    "email": "nursandi@example.com",
+    "password": "rahasia"
+}
+
+### Login User
+
+POST http://localhost:3000/api/login
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "nursandi@example.com",
+    "password": "rahasia"
+}
+
+### Dashboard Page
+
+GET http://localhost:3000/api/dashboard
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQwNWVmOTljMTI2MjE4MzMzNzg3NzQiLCJpYXQiOjE2OTg3MTc0MzUsImV4cCI6MTY5ODgwMzgzNX0.HmMAWBJq738OENc6TLlsEIdqikVCuYGpzbPnyNajqDA
+
+### Get All Users
+
+GET http://localhost:3000/api/users
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQwNWVmOTljMTI2MjE4MzMzNzg3NzQiLCJpYXQiOjE2OTg3MTc0MzUsImV4cCI6MTY5ODgwMzgzNX0.HmMAWBJq738OENc6TLlsEIdqikVCuYGpzbPnyNajqDA
+
